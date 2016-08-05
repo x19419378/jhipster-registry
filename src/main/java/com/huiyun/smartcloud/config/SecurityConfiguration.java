@@ -1,7 +1,9 @@
-package io.github.jhipster.registry.config;
+package com.huiyun.smartcloud.config;
 
 import javax.inject.Inject;
 
+import com.huiyun.smartcloud.security.AuthoritiesConstants;
+import com.huiyun.smartcloud.security.jwt.TokenProvider;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
@@ -11,10 +13,8 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
 
-import io.github.jhipster.registry.security.AuthoritiesConstants;
-import io.github.jhipster.registry.security.Http401UnauthorizedEntryPoint;
-import io.github.jhipster.registry.security.jwt.JWTConfigurer;
-import io.github.jhipster.registry.security.jwt.TokenProvider;
+import com.huiyun.smartcloud.security.Http401UnauthorizedEntryPoint;
+import com.huiyun.smartcloud.security.jwt.JWTConfigurer;
 
 @Configuration
 @EnableWebSecurity

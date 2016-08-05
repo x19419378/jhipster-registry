@@ -1,4 +1,4 @@
-package io.github.jhipster.registry.web.rest.dto;
+package com.huiyun.smartcloud.web.rest.dto;
 
 import java.util.List;
 import java.util.Map;

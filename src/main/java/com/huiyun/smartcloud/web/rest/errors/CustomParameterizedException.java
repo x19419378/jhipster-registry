@@ -1,4 +1,4 @@
-package io.github.jhipster.registry.web.rest.errors;
+package com.huiyun.smartcloud.web.rest.errors;
 
 /**
  * Custom, parameterized exception, which can be translated on the client side.

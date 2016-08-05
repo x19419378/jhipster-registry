@@ -1,4 +1,4 @@
-package io.github.jhipster.registry.web.rest.dto;
+package com.huiyun.smartcloud.web.rest.dto;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 

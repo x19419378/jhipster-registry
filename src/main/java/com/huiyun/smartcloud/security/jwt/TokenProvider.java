@@ -1,6 +1,6 @@
-package io.github.jhipster.registry.security.jwt;
+package com.huiyun.smartcloud.security.jwt;
 
-import io.github.jhipster.registry.config.JHipsterProperties;
+import com.huiyun.smartcloud.config.JHipsterProperties;
 
 import java.util.*;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package io.github.jhipster.registry.config;
+package com.huiyun.smartcloud.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

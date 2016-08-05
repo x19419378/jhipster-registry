@@ -1,6 +1,5 @@
-package io.github.jhipster.registry.web.rest;
+package com.huiyun.smartcloud.web.rest;
 
-import java.util.Optional;
 import java.util.stream.Collectors;
 import javax.servlet.http.HttpServletRequest;
 
@@ -14,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import com.codahale.metrics.annotation.Timed;
 
-import io.github.jhipster.registry.web.rest.dto.UserDTO;
+import com.huiyun.smartcloud.web.rest.dto.UserDTO;
 
 /**
  * REST controller for managing the current user's account.

@@ -1,4 +1,4 @@
-package io.github.jhipster.registry.web.rest;
+package com.huiyun.smartcloud.web.rest;
 
 import java.util.Collections;
 import javax.inject.Inject;
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.*;
 
 import com.codahale.metrics.annotation.Timed;
 
-import io.github.jhipster.registry.security.jwt.JWTConfigurer;
-import io.github.jhipster.registry.security.jwt.TokenProvider;
-import io.github.jhipster.registry.web.rest.dto.LoginDTO;
+import com.huiyun.smartcloud.security.jwt.JWTConfigurer;
+import com.huiyun.smartcloud.security.jwt.TokenProvider;
+import com.huiyun.smartcloud.web.rest.dto.LoginDTO;
 
 @RestController
 @RequestMapping("/api")

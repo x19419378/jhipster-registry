@@ -1,4 +1,4 @@
-package io.github.jhipster.registry.web.rest.errors;
+package com.huiyun.smartcloud.web.rest.errors;
 
 import java.util.List;
 
